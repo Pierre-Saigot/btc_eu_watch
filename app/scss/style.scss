@@ -1,0 +1,52 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+    overflow: hidden;
+}
+
+body{
+	min-height: 100%;
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+	.bg{
+		display: block;
+		border-radius: 100%;
+		width:100vw;
+        height:100vh;
+        position: absolute;
+		background: #ffffff;
+        p{
+          text-align: center;
+          position: relative;
+          color: #2E2E2E;
+          font-weight: 200;
+          margin-top: -3rem;
+          font-size: 2.5rem;
+        }
+      img{
+        display: block;
+        width: 3rem;
+        margin: 3rem auto;
+      }
+      #last_refresh{
+        text-align: center;
+        position: relative;
+        color: #2E2E2E;
+        left:6.3rem;
+        font-weight: 200;
+        font-size: 1rem;
+      }
+      .last_refresh{
+        img{
+          width:0.85rem;
+          position: absolute;
+          left:4.65rem;
+          bottom:-1.8rem;
+        }
+        #last_refresh{
+          margin-left: -0.5rem;
+        }
+      }
+	}
+}
