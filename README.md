@@ -1,11 +1,9 @@
-# Android Wear STARTER WEB
-### starter for little webapp wathc
+# BTC LIVE PRICING IN €
+### A little page for web browser in watches
 
-Hello there, here is a tiny starter I've build to answer my own needs.
-
-#### What's inside the box ?
-* [HTML5Boilerplate](https://html5boilerplate.com/)
-* [Gulp](http://gulpjs.com/)
+#### What's inside the project ?
+* [Wear Web Starter // WWS](https://github.com/Pierre-Saigot/android_wear_starter)
+* [Cryptonator](https://www.cryptonator.com/)
 * [SaSS](http://sass-lang.com/)
 * [tsbits-starter](https://github.com/tsbits/tsbits-starter) 
 
@@ -51,11 +49,13 @@ Hello there, here is a tiny starter I've build to answer my own needs.
   * Optimize image from app/img/, then copy to dist/img
   * Sprite all the SVG files and optimize them in app/icons in app/icons/dest/ and then copy to dist/icons
 
-#### Under the hood :
-* The watch task will watch change on .html .scss and .js files
-* Never edit your CSS in app/css/style.css, file is erased each to SaSS is compiled
-* app/css/main.css & app/css/normalize.css are CSS from [HTML5Boilerplate](https://html5boilerplate.com/)
-* app/js/plugins.js & app/js/vendors/modernizr-$.min.js are JS from [HTML5Boilerplate](https://html5boilerplate.com/)
+#### Finally :
+* Download & install the web-browser [WIB](https://play.google.com/store/apps/details?id=com.appfour.wearbrowser) 
+*  Upload your export to the web server 
+*  Launch WIB and go to your url page
+
+![Mockup](http://i.imgur.com/BYOdUXh.jpg)
+
 
 #### Credits :
 * [HTML5Boilerplate](https://html5boilerplate.com/)
@@ -64,3 +64,4 @@ Hello there, here is a tiny starter I've build to answer my own needs.
 * [SaSS](http://sass-lang.com/)
 * [CSSTricks](https://css-tricks.com/) 
 * [tsbits-starter](https://github.com/tsbits/tsbits-starter) 
+* [WIB](https://play.google.com/store/apps/details?id=com.appfour.wearbrowser) 
